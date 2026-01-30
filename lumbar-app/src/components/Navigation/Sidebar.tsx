@@ -1,4 +1,4 @@
-// M14.1: Sidebar Component - Fixed navigation menu
+// M14.1: Sidebar Component - Fixed navigation menu (CENTERED)
 import { FC } from 'react';
 import { motion } from 'framer-motion';
 import { Home, BarChart2, Settings } from 'lucide-react';
@@ -22,7 +22,7 @@ export const Sidebar: FC<SidebarProps> = ({ activeTab, onTabChange }) => {
 
     return (
         <aside className="w-56 bg-white/60 backdrop-blur-xl border-r border-gray-200/50 flex flex-col h-full">
-            {/* Logo */}
+            {/* Logo - Top */}
             <div className="p-5 border-b border-gray-200/50">
                 <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent flex items-center gap-2">
                     🪵 Lumbar
@@ -30,9 +30,9 @@ export const Sidebar: FC<SidebarProps> = ({ activeTab, onTabChange }) => {
                 <p className="text-xs text-gray-500 mt-1">Break Reminder</p>
             </div>
 
-            {/* Navigation */}
-            <nav className="flex-1 p-3">
-                <ul className="space-y-1">
+            {/* Navigation - CENTERED VERTICALLY */}
+            <nav className="flex-1 flex items-center justify-center p-3">
+                <ul className="space-y-2 w-full">
                     {menuItems.map(({ id, icon: Icon, labelKey }) => (
                         <li key={id}>
                             <motion.button
