@@ -1,0 +1,552 @@
+{
+    "common": {
+        "appName": "Lumbar",
+        "save": "Save",
+        "saved_successfully": "✅ Saved successfully!",
+        "cancel": "Cancel",
+        "settings": "Settings",
+        "quit": "Quit",
+        "pause": "Pause",
+        "resume": "Resume",
+        "about": "About",
+        "seconds": "seconds"
+    },
+    "nav": {
+        "home": "Home",
+        "stats": "Stats",
+        "settings": "Settings",
+        "awards": "Awards"
+    },
+    "mobile": {
+        "break_reminder": "Time for a break!",
+        "tap_to_open": "Tap to open app",
+        "streak_notification": "Don't break your {{days}}-day streak!",
+        "permission_required": "Notification permission needed for reminders"
+    },
+    "timer": {
+        "nextBreak": "Next break in",
+        "minutes": "min",
+        "seconds": "sec",
+        "today": "Today",
+        "breaks": "breaks"
+    },
+    "dashboard": {
+        "working": "Working...",
+        "paused": "Paused",
+        "on_break": "On break 🎉",
+        "ready": "Ready to start"
+    },
+    "overlay": {
+        "time_for_break": "Time for a break!",
+        "take_care": "Take care of your eyes and body",
+        "health_tip": "Quick Exercise",
+        "tip_look_away": "Look at something 20 feet away for 20 seconds",
+        "take_break": "Take a break!",
+        "snooze_5min": "Let me work 5 more minutes...",
+        "snooze_again": "Snoozing again?",
+        "snooze_really": "My eyes don't matter 💀",
+        "snooze_used": "used",
+        "no_more_snooze": "No more snoozes! Take a break!",
+        "break_for": "Break for",
+        "takeBreak": "Take a break!",
+        "snooze": "Leave me alone for {{minutes}} min...",
+        "skipBreak": "I choose back pain",
+        "breakEndsIn": "Break ends in",
+        "exercise": "Quick exercise"
+    },
+    "snooze": {
+        "first": "Snooze {{minutes}} min",
+        "second": "Snooze {{minutes}} more min...",
+        "third": "Just {{minutes}} more min, please...",
+        "denied": "No more snoozes!",
+        "no_more": "😤 No patience left! Take a break!",
+        "used": "snoozes used"
+    },
+    "notification": {
+        "hint": {
+            "title": "Break time coming!",
+            "body": "30 seconds to prepare..."
+        },
+        "toast": {
+            "title": "Time for a break!",
+            "body": "Rest your eyes for a moment 👀"
+        },
+        "overlay": {
+            "title": "TAKE A BREAK NOW!",
+            "body": "You've been working too long! 😤"
+        }
+    },
+    "tips": {
+        "section_title": "💪 QUICK EXERCISE",
+        "look_away": {
+            "title": "Look Away 20 feet",
+            "description": "Look out the window or at a point about 6 meters away for 20 seconds. Let your eyes relax."
+        },
+        "neck_rotation": {
+            "title": "Neck Rotation",
+            "description": "Slowly rotate your neck clockwise, then counterclockwise. 5 rotations each direction."
+        },
+        "shoulder_stretch": {
+            "title": "Shoulder Stretch",
+            "description": "Stand up, raise both hands high and stretch. Feel your back and shoulders extend."
+        },
+        "blink_exercise": {
+            "title": "Blink Exercise",
+            "description": "Blink quickly 20 times to moisten your eyes and reduce screen-related dryness."
+        },
+        "deep_breathing": {
+            "title": "Deep Breathing",
+            "description": "Inhale through nose for 4 seconds, hold 4 seconds, exhale through mouth for 6 seconds. Repeat 3-5 times."
+        },
+        "wrist_rotation": {
+            "title": "Wrist Rotation",
+            "description": "Rotate your wrists in circles, 10 rotations each direction. Helps reduce typing strain."
+        },
+        "back_stretch": {
+            "title": "Back Stretch",
+            "description": "Sit straight in your chair, slowly arch your back backward and hold for 10 seconds. Repeat 3 times."
+        }
+    },
+    "stats": {
+        "title": "📊 Statistics",
+        "today": "Today",
+        "this_week": "This Week",
+        "all_time": "All Time",
+        "breaks_completed": "Breaks",
+        "snoozes": "Snoozes",
+        "current_streak": "Current Streak",
+        "longest_streak": "Longest Streak",
+        "work_hours": "Work Hours",
+        "days": "days"
+    },
+    "achievements": {
+        "title": "🏆 Achievements",
+        "locked": "Locked",
+        "streak_3": {
+            "title": "Good Start!",
+            "description": "Maintain a 3-day streak"
+        },
+        "streak_7": {
+            "title": "Perfect Week",
+            "description": "Maintain a 7-day streak"
+        },
+        "streak_30": {
+            "title": "Habit Master",
+            "description": "Maintain a 30-day streak"
+        },
+        "breaks_10": {
+            "title": "Getting Started",
+            "description": "Complete 10 breaks"
+        },
+        "breaks_50": {
+            "title": "Dedicated",
+            "description": "Complete 50 breaks"
+        },
+        "breaks_100": {
+            "title": "Century Club",
+            "description": "Complete 100 breaks"
+        },
+        "breaks_500": {
+            "title": "Legend",
+            "description": "Complete 500 breaks"
+        },
+        "no_snooze_day": {
+            "title": "Iron Will",
+            "description": "A day without snoozing"
+        },
+        "early_bird": {
+            "title": "Early Bird",
+            "description": "Take a break before 8 AM"
+        }
+    },
+    "mascot": {
+        "happy": {
+            "messages": [
+                "Great job! You did it! 🎉",
+                "Your eyes thank you! 👀",
+                "Well-deserved break! ☕",
+                "Awesome! Keep it up!"
+            ]
+        },
+        "sad": {
+            "messages": [
+                "It's been so long... 😢",
+                "My eyes are tired...",
+                "Do you remember me? 🥺",
+                "Stand up and stretch!"
+            ]
+        },
+        "angry": {
+            "messages": [
+                "Fine, whatever! 😤",
+                "Snoozing again?!",
+                "I've lost my patience! 💢",
+                "I give up on you!"
+            ]
+        },
+        "sleeping": {
+            "messages": [
+                "Zzz... 😴",
+                "I'm sleeping...",
+                "Where did you go? 💤"
+            ]
+        },
+        "neutral": {
+            "messages": [
+                "Ready to work! 💪",
+                "Let's get started!",
+                "I'm here! 🪵"
+            ]
+        }
+    },
+    "relationship": {
+        "angel": {
+            "messages": [
+                "Wow, such discipline! Here's a round of applause for you! 🎉",
+                "You're Lumby's star! Keep it up! ⭐",
+                "3 in a row! You're becoming a legend! 🏆",
+                "Your spine is singing with joy! 🎵",
+                "Someone deserves a break... that's you! 💕",
+                "Lumby is so proud of you! Keep going! 🌟",
+                "You're better than 99% of Lumbar users! (I made up this number, but probably true!)",
+                "If your eyes could talk, they'd be thanking you profusely! 👀💕",
+                "Wow, you're the only one today who didn't make Lumby sad! 🎊",
+                "You're so good, do you even need me to remind you? 😊"
+            ],
+            "emoji": "😇"
+        },
+        "warning": {
+            "messages": [
+                "I see you. 5 more minutes without standing up and I'll be upset. 😤",
+                "You're playing with fire (and your back)...",
+                "Just one snooze, okay? I won't be gentle next time!",
+                "Hmm, you know I'm watching, right? 👀",
+                "5 minutes? Fine, but I'll remember this forever...",
+                "Writing this in my black book. Just kidding... or am I? 📝",
+                "OK, 5 minutes. But don't make it a habit!",
+                "Your eyes just sighed when you pressed that button, did you hear?",
+                "You owe your eyes 5 minutes of rest! 💸",
+                "Snooze #1... Lumby still believes in you... probably..."
+            ],
+            "emoji": "😐"
+        },
+        "villain": {
+            "messages": [
+                "Planning to fossilize in that chair? Let me book a spine appointment for you! 💀",
+                "Fine, forget it! Take responsibility for those dark circles!",
+                "If you don't stand up, I'll start dancing and block all your code! 💃",
+                "Your eyes are sending SOS signals, can you hear them?",
+                "One more snooze and I'm telling HR! 📞",
+                "You know what? Swivel chairs are great for... standing up from!",
+                "I'm starting to think you're a robot. Robots don't need breaks, but do you? 🤖",
+                "Fun fact: Ancient people didn't have chairs. They were healthier than you. 📚",
+                "Deadline more important than health? Let me ask you again when you're 50!",
+                "Do you know your spine is crying? I can hear it! 😢",
+                "OK fine. You win. I lose. But your back loses too!",
+                "Lumby officially gives up on you! 🏳️ (But will still keep reminding!)"
+            ],
+            "emoji": "😈"
+        },
+        "reconcile": {
+            "messages": [
+                "Welcome back! Eyes brighter now, right? Let's work! 🌟",
+                "See? A short break doesn't hurt! You did great! 💪",
+                "I forgive you! (But don't snooze too much next time)",
+                "Wow, you actually came back! Lumby is so happy! 🎉",
+                "See? A little break and you're refreshed!",
+                "Welcome back! Ready to grind again? 💻",
+                "Oh, you didn't abandon Lumby! Thank you! 🥹",
+                "Your eyes just blinked a thank you, did you see? 👀✨"
+            ],
+            "emoji": "🤗"
+        },
+        "dormant": {
+            "messages": [
+                "Zzz... Lumby is going to sleep too... Zzz...",
+                "(Yawns) Wake me up when you're back...",
+                "💤 ...hzzz... deadline... hzzz... coffee...",
+                "I'm dreaming of you working... wait, where did you go?",
+                "Idle mode activated. Lumby sleeping... 😴",
+                "Getting coffee? Don't forget to make one for Lumby! ☕💤"
+            ],
+            "emoji": "😴"
+        },
+        "streak_messages": {
+            "milestone_3": [
+                "3 days in a row! You're building a great habit! 🔥",
+                "3-day streak! Lumby is so proud of you!"
+            ],
+            "milestone_7": [
+                "A perfect week! You're a legend! 🔥🔥",
+                "7 days straight! Your spine is so happy!"
+            ],
+            "milestone_30": [
+                "30 DAYS! You're officially a Master of Health! 🏆",
+                "A whole month non-stop! Lumby bows to you! 🙇"
+            ],
+            "streak_reminder": [
+                "You've maintained this habit for {{days}} days. Don't let it go back to 0!",
+                "Your {{days}}-day streak is at risk! Take a break now!",
+                "{{days}} days! Don't break your record for 5 minutes of snooze!"
+            ],
+            "streak_broken": [
+                "Oh no! Streak reset! 😢 But it's okay, start again!",
+                "Streak back to 0... But Lumby believes you can do it! 💪"
+            ]
+        },
+        "intensity_messages": {
+            "long_session": [
+                "You've been typing for {{minutes}} minutes straight, those hands deserve a break!",
+                "{{minutes}} minutes without rest? Are you a machine or human? 🤖",
+                "Wow, {{minutes}} minutes! Impressive, but your eyes disagree!"
+            ],
+            "very_long": [
+                "80 minutes straight?! Are you competing with robots? 🤖",
+                "Over an hour! The deadline won't run away!",
+                "90 minutes! You know that's the length of a movie, right? 🎬"
+            ],
+            "keyboard_intensive": [
+                "You've typed {{keystrokes}} keys! Those hands need rest!",
+                "Your fingers are requesting time off! ✋"
+            ]
+        }
+    },
+    "time_messages": {
+        "early_morning": {
+            "greeting": [
+                "Good morning, early bird! 🌅",
+                "Up so early? Lumby is impressed!",
+                "Good morning! Ready to conquer the world?"
+            ],
+            "break_prompt": [
+                "Starting the day! Don't let deadlines consume you this early.",
+                "Morning energy is high! But still need eye breaks!",
+                "The sun just rose and you're already working hard! 🌞"
+            ],
+            "tip": [
+                "Drink a glass of warm water to start your body!",
+                "Morning stretches help you stay alert!"
+            ]
+        },
+        "morning": {
+            "greeting": [
+                "Good morning! ☀️",
+                "New day, new energy!",
+                "Morning! Let's do this!"
+            ],
+            "break_prompt": [
+                "It's been 20 minutes, your eyes need a quick rest.",
+                "Hey, look out the window! I give you permission. 👀",
+                "Finished your coffee? Time for an eye break!"
+            ],
+            "tip": [
+                "Look out the window for a bit!",
+                "Staying hydrated helps focus!"
+            ]
+        },
+        "post_lunch": {
+            "greeting": [
+                "Just finished eating? 🍜",
+                "Food coma incoming! 😴",
+                "Noon already, still awake?"
+            ],
+            "break_prompt": [
+                "Feeling sleepy? Stand up and stretch to wake up!",
+                "Post-lunch drowsiness is normal. Stand up!",
+                "Are the letters dancing? That's a sign you need a break! 💃"
+            ],
+            "tip": [
+                "Take a short walk to help digestion.",
+                "Don't eat too much or you'll feel sleepy!"
+            ]
+        },
+        "afternoon": {
+            "greeting": [
+                "Afternoon! 🌤️",
+                "Halfway through!",
+                "Just a few more hours, hang in there!"
+            ],
+            "break_prompt": [
+                "Deadline first, spine second. Which do you choose?",
+                "Afternoon drowsiness! Take a break then continue!",
+                "3 more hours to go! But eyes need rest now!"
+            ],
+            "tip": [
+                "Drink water, don't wait until you're thirsty.",
+                "Have a light snack so you're not hungry before leaving!"
+            ]
+        },
+        "evening": {
+            "greeting": [
+                "Almost done for the day! 🌅",
+                "Almost done!",
+                "Going home soon!"
+            ],
+            "break_prompt": [
+                "Go home! Your computer won't miss you, but your loved ones will.",
+                "Working overtime? Remember to rest your eyes! Finish soon!",
+                "The sun has set and you're still here? 🌅"
+            ],
+            "tip": [
+                "Tidy up your desk for a fresher start tomorrow.",
+                "Plan for tomorrow before leaving!"
+            ]
+        },
+        "late_night": {
+            "greeting": [
+                "Night owl, huh? 🦉",
+                "It's late at night!",
+                "Still up?"
+            ],
+            "break_prompt": [
+                "Careful or you'll have panda eyes! Lumby is going to bed! 🐼",
+                "Still working at this hour? Deadline from hell? 💀",
+                "Your eyes are sending a 'Help me' message! 🆘"
+            ],
+            "tip": [
+                "Turn on Night Shift/Blue Light Filter to protect your eyes.",
+                "Drink water, no more coffee!"
+            ]
+        }
+    },
+    "guilt_buttons": {
+        "skip_options": [
+            {
+                "text": "I accept back pain",
+                "reaction": "💀 Oh no... Lumby is so sad...",
+                "state": "sad"
+            },
+            {
+                "text": "My eyes don't matter",
+                "reaction": "😢 Are you serious?!",
+                "state": "sad"
+            },
+            {
+                "text": "My plan is early hospitalization",
+                "reaction": "🏥 Let Lumby book an appointment for you!",
+                "state": "angry"
+            },
+            {
+                "text": "Deadline is more important than eyes",
+                "reaction": "📊 When deadline is done, will your eyes be done too?",
+                "state": "sad"
+            }
+        ],
+        "snooze_options": [
+            {
+                "text": "Leave me alone for 5 min...",
+                "reaction": "😤 I'm remembering this!",
+                "state": "angry"
+            },
+            {
+                "text": "Just 5 more min, please!",
+                "reaction": "🙄 OK, just this once!",
+                "state": "neutral"
+            }
+        ],
+        "take_break_options": [
+            {
+                "text": "Save these eyes 👀",
+                "reaction": "🎉 Wonderful! You're a good person!",
+                "state": "happy"
+            },
+            {
+                "text": "OK OK, taking a break!",
+                "reaction": "🥳 Yes! Lumby loves you!",
+                "state": "happy"
+            }
+        ]
+    },
+    "challenges": {
+        "eye_follow": {
+            "title": "Eye Movement Challenge!",
+            "prompts": [
+                "Follow my cursor! 👀",
+                "Move your eyes with me! Left... right... up... down!",
+                "Eye exercise time! Follow my lead!"
+            ]
+        },
+        "water_check": {
+            "title": "Hydration Check!",
+            "prompts": [
+                "Take a photo of your water glass! (Kidding, but drink some water!)",
+                "Is your water glass full? If not, go refill it! 💧",
+                "Hydration check! Have you had water?"
+            ]
+        },
+        "stretch_now": {
+            "title": "Stretch Now!",
+            "prompts": [
+                "Stand up, raise your hands high, and stretch!",
+                "Stretch time! Stand up and stretch!",
+                "3... 2... 1... STRETCH! 🙆"
+            ]
+        },
+        "deep_breath": {
+            "title": "Deep Breathing",
+            "prompts": [
+                "Inhale 4 seconds... Hold 4 seconds... Exhale 4 seconds...",
+                "Deep breath time! Relax and breathe!",
+                "Relax now! Inhale... exhale... 🧘"
+            ]
+        }
+    },
+    "fun_facts": [
+        "Fun fact: Human eyes can distinguish about 10 million colors! Take care of those precious eyes! 👀",
+        "Did you know? Sitting too long increases heart disease risk by 64%! Stand up! 💔",
+        "On average, office workers sit 15 hours per day. Do you want to be one of them?",
+        "NASA says: 2-minute breaks every 30 minutes increase productivity by 11%! 🚀",
+        "Lumby has saved over 1000 pairs of eyes! (OK I made this up, but you could be next!)",
+        "You blink 66% less when looking at screens. Blink now! 👁️",
+        "Your spine is 70cm long. Keep it straight! 📏",
+        "Ancient people didn't have computers. They also didn't have back pain. Coincidence? 🤔",
+        "Drinking 8 glasses of water daily helps your skin! Free beauty tip from Lumby! 💅",
+        "Every hour without standing = 22 minutes of life lost! Stand up now! ⏰"
+    ],
+    "settings": {
+        "title": "Settings",
+        "timer": "Timer",
+        "micro_interval": "Micro-break every",
+        "micro_duration": "Micro-break duration",
+        "rest_interval": "Rest-break every",
+        "rest_duration": "Rest-break duration",
+        "notifications": "Notifications",
+        "sound": "Sound",
+        "notification_level": "Notification level",
+        "snooze_limit": "Snooze limit",
+        "general": "General",
+        "language": "Language",
+        "theme": "Theme",
+        "start_with_os": "Start with system",
+        "idle_threshold": "Idle threshold",
+        "reset": "Reset to defaults",
+        "confirm_reset": "Are you sure you want to reset to defaults?",
+        "lang_system": "System",
+        "theme_system": "System",
+        "theme_light": "Light",
+        "theme_dark": "Dark"
+    },
+    "tray": {
+        "skipToBreak": "Skip to break",
+        "showDashboard": "Show Dashboard"
+    },
+    "welcome": {
+        "title": "Welcome to Lumbar! 🪵",
+        "description": "Lumbar will automatically remind you to take breaks every 20 minutes to protect your eyes and spine.",
+        "tray_hint": "The app will run in the System Tray. Click 🪵 to open it.",
+        "start_now": "Start Now",
+        "settings_first": "Settings First"
+    },
+    "toast": {
+        "app_running": "🪵 Lumbar is running",
+        "minimized": "Minimized to System Tray",
+        "hide_to_tray": [
+            "🪵 I'll be here! Click to see me again!",
+            "💤 Lumby is napping in the corner...",
+            "👋 Bye! But I'm still watching you!",
+            "🏠 Going home (to tray)!",
+            "🫣 Hiding here! Miss me? Click!",
+            "😴 Zzz... Call me when you need me..."
+        ]
+    }
+}

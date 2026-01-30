@@ -1,0 +1,552 @@
+{
+    "common": {
+        "appName": "Lumbar",
+        "save": "Lưu",
+        "saved_successfully": "✅ Đã lưu thành công!",
+        "cancel": "Hủy",
+        "settings": "Cài đặt",
+        "quit": "Thoát",
+        "pause": "Tạm dừng",
+        "resume": "Tiếp tục",
+        "about": "Giới thiệu",
+        "seconds": "giây"
+    },
+    "nav": {
+        "home": "Trang chủ",
+        "stats": "Thống kê",
+        "settings": "Cài đặt",
+        "awards": "Thành tựu"
+    },
+    "mobile": {
+        "break_reminder": "Đến giờ nghỉ rồi!",
+        "tap_to_open": "Nhấn để mở app",
+        "streak_notification": "Đừng phá streak {{days}} ngày!",
+        "permission_required": "Cần quyền thông báo để nhắc nghỉ"
+    },
+    "timer": {
+        "nextBreak": "Nghỉ sau",
+        "minutes": "phút",
+        "seconds": "giây",
+        "today": "Hôm nay",
+        "breaks": "lần nghỉ"
+    },
+    "dashboard": {
+        "working": "Đang làm việc...",
+        "paused": "Tạm dừng",
+        "on_break": "Đang nghỉ ngơi 🎉",
+        "ready": "Sẵn sàng bắt đầu"
+    },
+    "overlay": {
+        "time_for_break": "Đến giờ nghỉ rồi!",
+        "take_care": "Hãy chăm sóc đôi mắt và cơ thể của bạn nhé",
+        "health_tip": "Bài tập ngắn",
+        "tip_look_away": "Nhìn ra xa 6 mét trong 20 giây để thư giãn mắt",
+        "take_break": "Nghỉ ngơi đây!",
+        "snooze_5min": "Kệ tôi thêm 5 phút...",
+        "snooze_again": "Lại hoãn nữa à?",
+        "snooze_really": "Mắt tôi không quan trọng 💀",
+        "snooze_used": "lần đã dùng",
+        "no_more_snooze": "Hết lượt hoãn rồi! Nghỉ đi!",
+        "break_for": "Nghỉ khoảng",
+        "takeBreak": "Nghỉ ngơi đây!",
+        "snooze": "Kệ tôi thêm {{minutes}} phút...",
+        "skipBreak": "Tôi chọn đau lưng",
+        "breakEndsIn": "Nghỉ kết thúc sau",
+        "exercise": "Bài tập ngắn"
+    },
+    "snooze": {
+        "first": "Hoãn {{minutes}} phút",
+        "second": "Lại hoãn {{minutes}} phút nữa...",
+        "third": "Kệ tôi thêm {{minutes}} phút cuối...",
+        "denied": "Đã hết lượt hoãn!",
+        "no_more": "😤 Hết kiên nhẫn rồi! Nghỉ đi!",
+        "used": "lần hoãn"
+    },
+    "notification": {
+        "hint": {
+            "title": "Sắp đến giờ nghỉ!",
+            "body": "Còn 30 giây để chuẩn bị..."
+        },
+        "toast": {
+            "title": "Đến giờ nghỉ rồi!",
+            "body": "Hãy nghỉ mắt một chút nhé 👀"
+        },
+        "overlay": {
+            "title": "NGHỈ NGAY!",
+            "body": "Bạn đã làm việc quá lâu rồi! 😤"
+        }
+    },
+    "tips": {
+        "section_title": "💪 BÀI TẬP NGẮN",
+        "look_away": {
+            "title": "Nhìn xa 20 feet",
+            "description": "Nhìn ra cửa sổ hoặc nhìn vào một điểm xa khoảng 6 mét trong 20 giây. Để mắt thư giãn."
+        },
+        "neck_rotation": {
+            "title": "Xoay cổ",
+            "description": "Từ từ xoay cổ theo chiều kim đồng hồ, sau đó ngược lại. Mỗi chiều 5 vòng."
+        },
+        "shoulder_stretch": {
+            "title": "Vươn vai",
+            "description": "Đứng dậy, đưa hai tay lên cao và vươn người. Cảm nhận các cơ lưng và vai được duỗi ra."
+        },
+        "blink_exercise": {
+            "title": "Nháy mắt",
+            "description": "Nháy mắt nhanh 20 lần để làm ẩm mắt và giảm khô mắt khi nhìn màn hình."
+        },
+        "deep_breathing": {
+            "title": "Hít thở sâu",
+            "description": "Hít vào bằng mũi trong 4 giây, giữ 4 giây, thở ra bằng miệng trong 6 giây. Lặp lại 3-5 lần."
+        },
+        "wrist_rotation": {
+            "title": "Xoay cổ tay",
+            "description": "Xoay cổ tay theo vòng tròn, 10 vòng theo mỗi chiều. Giúp giảm căng thẳng khi gõ phím."
+        },
+        "back_stretch": {
+            "title": "Duỗi lưng",
+            "description": "Ngồi thẳng trên ghế, từ từ ưỡn lưng về phía sau và giữ 10 giây. Lặp lại 3 lần."
+        }
+    },
+    "stats": {
+        "title": "📊 Thống kê",
+        "today": "Hôm nay",
+        "this_week": "Tuần này",
+        "all_time": "Tổng cộng",
+        "breaks_completed": "Lần nghỉ",
+        "snoozes": "Lần hoãn",
+        "current_streak": "Streak hiện tại",
+        "longest_streak": "Streak dài nhất",
+        "work_hours": "Giờ làm việc",
+        "days": "ngày"
+    },
+    "achievements": {
+        "title": "🏆 Thành tựu",
+        "locked": "Chưa mở khóa",
+        "streak_3": {
+            "title": "Bắt đầu tốt!",
+            "description": "Duy trì streak 3 ngày"
+        },
+        "streak_7": {
+            "title": "Một tuần hoàn hảo",
+            "description": "Duy trì streak 7 ngày"
+        },
+        "streak_30": {
+            "title": "Thói quen bền vững",
+            "description": "Duy trì streak 30 ngày"
+        },
+        "breaks_10": {
+            "title": "Khởi động",
+            "description": "Hoàn thành 10 lần nghỉ"
+        },
+        "breaks_50": {
+            "title": "Chăm chỉ",
+            "description": "Hoàn thành 50 lần nghỉ"
+        },
+        "breaks_100": {
+            "title": "Century Club",
+            "description": "Hoàn thành 100 lần nghỉ"
+        },
+        "breaks_500": {
+            "title": "Huyền thoại",
+            "description": "Hoàn thành 500 lần nghỉ"
+        },
+        "no_snooze_day": {
+            "title": "Kỷ luật thép",
+            "description": "Một ngày không snooze"
+        },
+        "early_bird": {
+            "title": "Dậy sớm",
+            "description": "Nghỉ ngơi trước 8h sáng"
+        }
+    },
+    "mascot": {
+        "happy": {
+            "messages": [
+                "Tuyệt vời! Bạn làm tốt lắm! 🎉",
+                "Mắt bạn cảm ơn bạn đấy! 👀",
+                "Nghỉ ngơi xứng đáng! ☕",
+                "Giỏi lắm! Tiếp tục phát huy nhé!"
+            ]
+        },
+        "sad": {
+            "messages": [
+                "Lâu quá rồi... 😢",
+                "Mắt mình mỏi quá...",
+                "Bạn có nhớ mình không? 🥺",
+                "Đứng dậy đi nào!"
+            ]
+        },
+        "angry": {
+            "messages": [
+                "Thôi kệ bạn! 😤",
+                "Lại hoãn nữa à?!",
+                "Mình hết kiên nhẫn rồi! 💢",
+                "Tôi từ bỏ rồi đấy!"
+            ]
+        },
+        "sleeping": {
+            "messages": [
+                "Zzz... 😴",
+                "Mình đang ngủ...",
+                "Bạn đi đâu rồi? 💤"
+            ]
+        },
+        "neutral": {
+            "messages": [
+                "Sẵn sàng làm việc! 💪",
+                "Cùng bắt đầu thôi!",
+                "Mình ở đây nè! 🪵"
+            ]
+        }
+    },
+    "relationship": {
+        "angel": {
+            "messages": [
+                "Ôi, ai mà có kỷ luật thép thế này? Thưởng cho bạn một tràng pháo tay! 🎉",
+                "Bạn là ngôi sao của Lumby đấy! Tiếp tục phát huy nhé! ⭐",
+                "3 lần liên tiếp! Bạn đang trở thành huyền thoại rồi đó! 🏆",
+                "Cột sống bạn đang hát ca vui sướng đấy! 🎵",
+                "Ai đó xứng đáng được nghỉ ngơi... chính là bạn đấy! 💕",
+                "Lumby tự hào về bạn lắm! Cứ thế nhé! 🌟",
+                "Bạn làm tốt hơn 99% người dùng Lumbar đó! (Tôi bịa số này thôi, nhưng chắc đúng!)",
+                "Nếu mắt bạn biết nói, chắc nó đang cảm ơn rối rít! 👀💕",
+                "Wow, bạn là người duy nhất hôm nay không làm Lumby buồn! 🎊",
+                "Bạn giỏi thế này mà còn cần Lumby nhắc cơ à? 😊"
+            ],
+            "emoji": "😇"
+        },
+        "warning": {
+            "messages": [
+                "Tôi thấy rồi nhé. 5 phút nữa mà không đứng dậy là tôi dỗi đấy. 😤",
+                "Bạn đang đùa với lửa (và với lưng) đấy...",
+                "Một snooze thôi nhé, lần sau tôi không nhẹ tay đâu!",
+                "Hmm, bạn biết tôi đang nhìn không? 👀",
+                "5 phút à? Được rồi, nhưng tôi sẽ nhớ mãi lần này...",
+                "Tôi ghi vào sổ đen rồi nhé. Đùa thôi... hay là thật? 📝",
+                "OK, 5 phút. Nhưng đừng để thành thói quen đấy!",
+                "Mắt bạn vừa thở dài khi bạn bấm nút đó, bạn có nghe không?",
+                "Bạn nợ mắt bạn 5 phút nghỉ ngơi rồi đó! 💸",
+                "Snooze lần 1... Lumby vẫn tin bạn... chắc vậy..."
+            ],
+            "emoji": "😐"
+        },
+        "villain": {
+            "messages": [
+                "Bạn định hóa thạch trên cái ghế này luôn à? Để tôi đặt lịch khám cột sống hộ bạn nhé! 💀",
+                "Thôi kệ bạn! Tự chịu trách nhiệm với đôi mắt thâm quầng nhé!",
+                "Nếu bạn không đứng dậy, tôi sẽ bắt đầu nhảy múa che hết đống code này đấy! 💃",
+                "Mắt bạn đang gửi tín hiệu SOS đấy, bạn có nghe thấy không?",
+                "Còn snooze nữa là tôi kể với HR đấy! 📞",
+                "Bạn biết không? Ghế xoay rất tốt cho... việc đứng dậy khỏi nó!",
+                "Tôi bắt đầu nghi ngờ bạn là robot. Robot thì không cần nghỉ, còn bạn? 🤖",
+                "Fun fact: Người xưa không có ghế. Họ khỏe hơn bạn nhiều. 📚",
+                "Deadline quan trọng hơn sức khỏe à? Để tôi hỏi lại bạn khi bạn 50 tuổi nhé!",
+                "Bạn có biết cột sống bạn đang khóc không? Tôi nghe thấy mà! 😢",
+                "OK fine. Bạn thắng. Tôi thua. Nhưng lưng bạn cũng thua luôn đấy!",
+                "Lumby chính thức bỏ cuộc với bạn rồi! 🏳️ (Nhưng vẫn sẽ nhắc tiếp đâu!)"
+            ],
+            "emoji": "😈"
+        },
+        "reconcile": {
+            "messages": [
+                "Chào mừng trở lại! Mắt sáng hơn rồi đúng không? Làm việc tiếp thôi! 🌟",
+                "Đấy, nghỉ một chút có sao đâu nào! Bạn làm tốt lắm! 💪",
+                "Tôi tha thứ cho bạn rồi! (Nhưng lần sau đừng snooze nhiều quá nhé)",
+                "Wow, bạn quay lại thật rồi! Lumby vui quá! 🎉",
+                "Thấy chưa, nghỉ một chút là tỉnh táo hẳn!",
+                "Welcome back! Sẵn sàng cày tiếp chưa? 💻",
+                "Ồ, bạn không bỏ rơi Lumby! Cảm ơn bạn! 🥹",
+                "Mắt bạn vừa nháy nháy cảm ơn đấy, bạn có thấy không? 👀✨"
+            ],
+            "emoji": "🤗"
+        },
+        "dormant": {
+            "messages": [
+                "Zzz... Lumby cũng đi ngủ đây... Zzz...",
+                "(Ngáp) Wake me up when you're back...",
+                "💤 ...hzzz... deadline... hzzz... coffee...",
+                "Tôi đang mơ thấy bạn làm việc... chờ, bạn đâu rồi?",
+                "Idle mode activated. Lumby sleeping... 😴",
+                "Bạn đi pha coffee à? Nhớ pha cho Lumby một ly nhé! ☕💤"
+            ],
+            "emoji": "😴"
+        },
+        "streak_messages": {
+            "milestone_3": [
+                "3 ngày liên tiếp! Bạn đang xây dựng thói quen tốt rồi đấy! 🔥",
+                "Streak 3 ngày! Lumby tự hào về bạn lắm!"
+            ],
+            "milestone_7": [
+                "Một tuần hoàn hảo! Bạn là huyền thoại! 🔥🔥",
+                "7 ngày liên tiếp! Cột sống bạn đang hạnh phúc lắm!"
+            ],
+            "milestone_30": [
+                "30 NGÀY! Bạn chính thức là Master of Health! 🏆",
+                "Một tháng không ngừng nghỉ! Lumby xin cúi đầu! 🙇"
+            ],
+            "streak_reminder": [
+                "Bạn đã duy trì thói quen {{days}} ngày rồi. Đừng để con số này quay về 0!",
+                "Streak {{days}} ngày đang bị đe dọa! Nghỉ ngay đi!",
+                "{{days}} ngày rồi đấy! Đừng phá kỷ lục vì 5 phút snooze!"
+            ],
+            "streak_broken": [
+                "Ôi không! Streak bị reset rồi! 😢 Nhưng không sao, bắt đầu lại thôi!",
+                "Streak về 0 rồi... Nhưng Lumby tin bạn sẽ làm lại được! 💪"
+            ]
+        },
+        "intensity_messages": {
+            "long_session": [
+                "Bạn đã gõ phím liên tục {{minutes}} phút rồi, đôi tay này xứng đáng được nghỉ ngơi!",
+                "{{minutes}} phút không nghỉ? Bạn là máy hay là người vậy? 🤖",
+                "Wow, {{minutes}} phút! Impressive, nhưng mắt bạn không nghĩ vậy!"
+            ],
+            "very_long": [
+                "80 phút liên tục?! Bạn đang cạnh tranh với robot à? 🤖",
+                "Hơn 1 tiếng rồi! Deadline có chạy đi đâu mà sợ!",
+                "90 phút! Bạn biết đó là thời lượng một bộ phim không? 🎬"
+            ],
+            "keyboard_intensive": [
+                "Bạn đã gõ {{keystrokes}} phím rồi! Đôi tay cần nghỉ!",
+                "Ngón tay bạn đang xin nghỉ phép đấy! ✋"
+            ]
+        }
+    },
+    "time_messages": {
+        "early_morning": {
+            "greeting": [
+                "Chào buổi sáng, early bird! 🌅",
+                "Dậy sớm thế? Lumby nể bạn quá!",
+                "Good morning! Ready to conquer the world?"
+            ],
+            "break_prompt": [
+                "Khởi động ngày mới thôi! Đừng để deadline nuốt chửng bạn ngay từ sáng.",
+                "Sáng sớm năng lượng tràn đầy! Nhưng vẫn cần nghỉ mắt nhé!",
+                "Mặt trời mới lên mà bạn đã chăm chỉ thế rồi! 🌞"
+            ],
+            "tip": [
+                "Uống một ly nước ấm để khởi động cơ thể nào!",
+                "Vươn vai buổi sáng giúp tỉnh táo hơn đấy!"
+            ]
+        },
+        "morning": {
+            "greeting": [
+                "Chào buổi sáng! ☀️",
+                "Ngày mới, năng lượng mới!",
+                "Morning! Let's do this!"
+            ],
+            "break_prompt": [
+                "20 phút rồi đấy, mắt bạn đang cần một giây nghỉ ngơi.",
+                "Hey, nhìn ra cửa sổ chút đi! Tôi cho phép rồi. 👀",
+                "Cà phê xong rồi thì nghỉ mắt chút nhé!"
+            ],
+            "tip": [
+                "Nhìn ra cửa sổ một chút đi!",
+                "Uống đủ nước giúp tập trung hơn!"
+            ]
+        },
+        "post_lunch": {
+            "greeting": [
+                "Mới ăn xong hả? 🍜",
+                "Food coma incoming! 😴",
+                "Trưa rồi, còn tỉnh không?"
+            ],
+            "break_prompt": [
+                "Mắt đang lim dim đúng không? Đứng dậy vươn vai một cái cho tỉnh táo nào!",
+                "Buồn ngủ sau ăn trưa là bình thường. Đứng dậy đi nào!",
+                "Bạn có thấy chữ đang nhảy múa không? Dấu hiệu cần nghỉ đấy! 💃"
+            ],
+            "tip": [
+                "Đi dạo một vòng quanh phòng để tiêu hóa tốt hơn.",
+                "Đừng ăn no quá kẻo buồn ngủ nhé!"
+            ]
+        },
+        "afternoon": {
+            "greeting": [
+                "Chiều rồi! 🌤️",
+                "Halfway through!",
+                "Còn vài tiếng nữa thôi, cố lên!"
+            ],
+            "break_prompt": [
+                "Deadline là nhất, cột sống là nhì. Bạn chọn cái nào?",
+                "Chiều buồn ngủ lắm! Nghỉ chút rồi làm tiếp nhé!",
+                "3 tiếng nữa là xong rồi! Nhưng mắt cần nghỉ bây giờ!"
+            ],
+            "tip": [
+                "Uống nước đi, đừng để cơ thể khát mới uống.",
+                "Ăn nhẹ gì đó để không đói trước khi về!"
+            ]
+        },
+        "evening": {
+            "greeting": [
+                "Sắp hết ngày rồi! 🌅",
+                "Almost done!",
+                "Chút nữa về nhà rồi!"
+            ],
+            "break_prompt": [
+                "Về nhà thôi bạn ơi! Cái máy tính này không biết nhớ bạn đâu, nhưng người thân thì có đấy.",
+                "OT hả? Nhớ nghỉ mắt nhé! Làm xong sớm thôi!",
+                "Mặt trời lặn rồi mà bạn vẫn ở đây à? 🌅"
+            ],
+            "tip": [
+                "Thu dọn bàn làm việc để sáng mai tinh thần hơn.",
+                "Lên kế hoạch cho ngày mai trước khi về!"
+            ]
+        },
+        "late_night": {
+            "greeting": [
+                "Cú đêm à? 🦉",
+                "Đêm khuya rồi!",
+                "Bạn còn thức sao?"
+            ],
+            "break_prompt": [
+                "Cẩn thận không là mắt thành gấu trúc đấy! Lumby đi ngủ trước đây!",
+                "Giờ này mà còn làm việc? Deadline từ địa ngục hả? 💀",
+                "Mắt bạn đang gửi tin nhắn 'Help me' đấy! 🆘"
+            ],
+            "tip": [
+                "Bật Night Shift/Blue Light Filter để bảo vệ mắt.",
+                "Uống nước, đừng uống thêm cà phê nữa!"
+            ]
+        }
+    },
+    "guilt_buttons": {
+        "skip_options": [
+            {
+                "text": "Tôi chấp nhận đau lưng",
+                "reaction": "💀 Ôi không... Lumby buồn quá...",
+                "state": "sad"
+            },
+            {
+                "text": "Mắt tôi không quan trọng",
+                "reaction": "😢 Bạn nói thật à?!",
+                "state": "sad"
+            },
+            {
+                "text": "Kế hoạch là nhập viện sớm",
+                "reaction": "🏥 Lumby đặt lịch hẹn hộ bạn nhé!",
+                "state": "angry"
+            },
+            {
+                "text": "Deadline quan trọng hơn mắt",
+                "reaction": "📊 Deadline xong rồi mắt có xong không?",
+                "state": "sad"
+            }
+        ],
+        "snooze_options": [
+            {
+                "text": "Kệ tôi thêm 5 phút...",
+                "reaction": "😤 Tôi ghi nhớ rồi đấy!",
+                "state": "angry"
+            },
+            {
+                "text": "5 phút nữa thôi, xin đấy!",
+                "reaction": "🙄 OK, lần này thôi nhé!",
+                "state": "neutral"
+            }
+        ],
+        "take_break_options": [
+            {
+                "text": "Cứu lấy đôi mắt này 👀",
+                "reaction": "🎉 Tuyệt vời! Bạn là người tốt!",
+                "state": "happy"
+            },
+            {
+                "text": "OK OK, nghỉ đây!",
+                "reaction": "🥳 Yes! Lumby yêu bạn!",
+                "state": "happy"
+            }
+        ]
+    },
+    "challenges": {
+        "eye_follow": {
+            "title": "Thử thách đảo mắt!",
+            "prompts": [
+                "Nhìn theo con trỏ chuột của tôi nào! 👀",
+                "Đảo mắt theo tôi đi! Trái... phải... lên... xuống!",
+                "Eye exercise time! Follow my lead!"
+            ]
+        },
+        "water_check": {
+            "title": "Kiểm tra nước!",
+            "prompts": [
+                "Chụp một bức ảnh ly nước của bạn gửi cho tôi xem nào! (Đùa thôi, nhưng uống nước đi!)",
+                "Ly nước của bạn có đầy không? Không thì đi rót đi! 💧",
+                "Hydration check! Uống nước chưa?"
+            ]
+        },
+        "stretch_now": {
+            "title": "Vươn vai ngay!",
+            "prompts": [
+                "Đứng dậy, giơ tay lên cao, và vươn người thật mạnh!",
+                "Stretch time! Đứng dậy vươn vai đi nào!",
+                "3... 2... 1... VƯƠN VAI! 🙆"
+            ]
+        },
+        "deep_breath": {
+            "title": "Hít thở sâu",
+            "prompts": [
+                "Hít vào 4 giây... Giữ 4 giây... Thở ra 4 giây...",
+                "Deep breath time! Relax và hít thở nào!",
+                "Thư giãn đi nào! Hít... thở... 🧘"
+            ]
+        }
+    },
+    "fun_facts": [
+        "Fun fact: Mắt người có thể phân biệt khoảng 10 triệu màu! Hãy chăm sóc đôi mắt quý giá này nhé! 👀",
+        "Bạn biết không? Ngồi quá lâu tăng nguy cơ bệnh tim 64%! Đứng dậy đi! 💔",
+        "Trung bình, dân văn phòng ngồi 15 tiếng mỗi ngày. Bạn có muốn thuộc số đó không?",
+        "NASA nói: Nghỉ 2 phút mỗi 30 phút làm việc giúp tăng 11% năng suất! 🚀",
+        "Lumby đã cứu hơn 1000 đôi mắt! (OK tôi bịa số này, nhưng bạn có thể là người tiếp theo!)",
+        "Bạn nháy mắt ít hơn 66% khi nhìn màn hình. Nháy mắt đi nào! 👁️",
+        "Cột sống bạn dài 70cm. Hãy giữ cho nó thẳng nhé! 📏",
+        "Người xưa không có máy tính. Họ cũng không có đau lưng. Coincidence? 🤔",
+        "Uống 8 ly nước mỗi ngày giúp da đẹp hơn! Beauty tip miễn phí từ Lumby! 💅",
+        "Mỗi giờ không đứng dậy = 22 phút tuổi thọ bị mất! Đứng dậy ngay! ⏰"
+    ],
+    "settings": {
+        "title": "Cài đặt",
+        "timer": "Đồng hồ",
+        "micro_interval": "Nghỉ micro mỗi",
+        "micro_duration": "Thời gian nghỉ micro",
+        "rest_interval": "Nghỉ dài mỗi",
+        "rest_duration": "Thời gian nghỉ dài",
+        "notifications": "Thông báo",
+        "sound": "Âm thanh",
+        "notification_level": "Mức thông báo",
+        "snooze_limit": "Giới hạn hoãn",
+        "general": "Chung",
+        "language": "Ngôn ngữ",
+        "theme": "Giao diện",
+        "start_with_os": "Khởi động cùng hệ thống",
+        "idle_threshold": "Ngưỡng idle",
+        "reset": "Khôi phục mặc định",
+        "confirm_reset": "Bạn có chắc muốn khôi phục mặc định?",
+        "lang_system": "Theo hệ thống",
+        "theme_system": "Theo hệ thống",
+        "theme_light": "Sáng",
+        "theme_dark": "Tối"
+    },
+    "tray": {
+        "skipToBreak": "Nghỉ ngay",
+        "showDashboard": "Mở Dashboard"
+    },
+    "welcome": {
+        "title": "Chào mừng đến Lumbar! 🪵",
+        "description": "Lumbar sẽ tự động nhắc bạn nghỉ ngơi mỗi 20 phút để bảo vệ mắt và cột sống.",
+        "tray_hint": "App sẽ chạy ẩn trong System Tray. Click vào 🪵 để mở lại.",
+        "start_now": "Bắt đầu ngay",
+        "settings_first": "Cài đặt trước"
+    },
+    "toast": {
+        "app_running": "🪵 Lumbar đang hoạt động",
+        "minimized": "Đã ẩn xuống System Tray",
+        "hide_to_tray": [
+            "🪵 Mình nằm đây nhé! Click để gặp lại!",
+            "💤 Lumby đi ngủ ở góc màn hình...",
+            "👋 Tạm biệt! Nhưng mình vẫn theo dõi bạn đấy!",
+            "🏠 Mình về nhà (tray) rồi nhé!",
+            "🫣 Mình trốn ở đây! Nhớ thì click nha~",
+            "😴 Zzz... Gọi mình khi cần..."
+        ]
+    }
+}

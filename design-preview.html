@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMBAR - Design System Preview</title>
+  
+  <!-- Google Fonts - Nunito -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    /* CSS Variables */
+    :root {
+      --color-primary: #FF6B35;
+      --color-primary-hover: #e55a2b;
+      --color-secondary: #4ECDC4;
+      --color-secondary-hover: #3dbdb4;
+      --color-text: #2D3436;
+      --color-text-muted: #636E72;
+      --color-bg-primary: #FFFFFF;
+      --color-bg-secondary: #F5F5F5;
+      --color-glass-bg: rgba(255, 255, 255, 0.25);
+      --color-glass-bg-medium: rgba(255, 255, 255, 0.4);
+      --color-glass-bg-heavy: rgba(255, 255, 255, 0.6);
+      --color-glass-border: rgba(255, 255, 255, 0.18);
+      --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+      --font-primary: 'Nunito', sans-serif;
+    }
+
+    /* Dark mode */
+    [data-theme="dark"] {
+      --color-text: #EAEAEA;
+      --color-text-muted: #A0A0A0;
+      --color-bg-primary: #1A1A2E;
+      --color-bg-secondary: #16213E;
+      --color-glass-bg: rgba(255, 255, 255, 0.1);
+      --color-glass-bg-medium: rgba(255, 255, 255, 0.15);
+      --color-glass-bg-heavy: rgba(255, 255, 255, 0.25);
+      --color-glass-border: rgba(255, 255, 255, 0.1);
+      --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-primary);
+      color: var(--color-text);
+      line-height: 1.5;
+      min-height: 100vh;
+      transition: background-color 0.3s ease;
+    }
+
+    /* Gradient background */
+    .gradient-bg {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    }
+
+    .dark-gradient-bg {
+      background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+    }
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    .title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: white;
+    }
+
+    .subtitle {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 1rem;
+    }
+
+    /* Theme toggle */
+    .theme-toggle {
+      background: var(--color-glass-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid var(--color-glass-border);
+      border-radius: 12px;
+      padding: 0.75rem 1.5rem;
+      color: white;
+      font-family: var(--font-primary);
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .theme-toggle:hover {
+      background: rgba(255, 255, 255, 0.35);
+    }
+
+    /* Section */
+    .section {
+      margin-bottom: 3rem;
+    }
+
+    .section-title {
+      color: white;
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    /* Grid */
+    .grid {
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    .grid-2 { grid-template-columns: repeat(2, 1fr); }
+    .grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+    @media (max-width: 768px) {
+      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+    }
+
+    /* Glass Cards */
+    .glass-light {
+      background: var(--color-glass-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 20px;
+      border: 1px solid var(--color-glass-border);
+      box-shadow: var(--shadow-glass);
+      padding: 1.5rem;
+    }
+
+    .glass-medium {
+      background: var(--color-glass-bg-medium);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border-radius: 20px;
+      border: 1px solid var(--color-glass-border);
+      box-shadow: var(--shadow-glass);
+      padding: 1.5rem;
+    }
+
+    .glass-heavy {
+      background: var(--color-glass-bg-heavy);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: 24px;
+      border: 1px solid var(--color-glass-border);
+      box-shadow: var(--shadow-glass);
+      padding: 1.5rem;
+    }
+
+    .card-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: white;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-text {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 0.875rem;
+    }
+
+    .card-label {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 0.75rem;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 12px;
+      font-family: var(--font-primary);
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border: none;
+      outline: none;
+    }
+
+    .btn:active {
+      transform: scale(0.95);
+    }
+
+    .btn-primary {
+      background: var(--color-primary);
+      color: white;
+      box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+    }
+
+    .btn-primary:hover {
+      background: var(--color-primary-hover);
+      box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+    }
+
+    .btn-secondary {
+      background: var(--color-secondary);
+      color: white;
+      box-shadow: 0 4px 15px rgba(78, 205, 196, 0.3);
+    }
+
+    .btn-secondary:hover {
+      background: var(--color-secondary-hover);
+      box-shadow: 0 6px 20px rgba(78, 205, 196, 0.4);
+    }
+
+    .btn-ghost {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .btn-ghost:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    .btn-passive-aggressive {
+      background: rgba(255, 200, 200, 0.15);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      color: rgba(255, 200, 200, 0.9);
+      border: 1px solid rgba(255, 150, 150, 0.2);
+    }
+
+    .btn-passive-aggressive:hover {
+      background: rgba(255, 150, 150, 0.25);
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    /* Button sizes */
+    .btn-sm { padding: 0.5rem 1rem; font-size: 0.875rem; }
+    .btn-lg { padding: 1rem 2rem; font-size: 1.125rem; }
+
+    /* Color swatches */
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      gap: 1rem;
+    }
+
+    .color-swatch {
+      text-align: center;
+    }
+
+    .color-box {
+      width: 100%;
+      height: 60px;
+      border-radius: 12px;
+      margin-bottom: 0.5rem;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .color-name {
+      font-size: 0.75rem;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    /* Typography preview */
+    .typography-preview {
+      color: white;
+    }
+
+    .typography-preview h1 { font-size: 2.25rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .typography-preview h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .typography-preview h3 { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem; }
+    .typography-preview p { font-size: 1rem; margin-bottom: 0.5rem; color: rgba(255, 255, 255, 0.8); }
+    .typography-preview small { font-size: 0.75rem; color: rgba(255, 255, 255, 0.6); }
+
+    /* Mascot preview */
+    .mascot-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .mascot {
+      font-size: 5rem;
+      animation: gentleBounce 2s ease-in-out infinite;
+    }
+
+    @keyframes gentleBounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    /* Timer preview */
+    .timer-display {
+      font-size: 3rem;
+      font-weight: 700;
+      color: white;
+      text-align: center;
+      letter-spacing: 0.1em;
+    }
+
+    .timer-label {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 0.875rem;
+      margin-top: 0.5rem;
+    }
+
+    /* Overlay preview */
+    .overlay-preview {
+      position: relative;
+      min-height: 300px;
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    .overlay-backdrop {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      gap: 1rem;
+    }
+
+    .overlay-message {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: white;
+      text-align: center;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 0.875rem;
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  </style>
+</head>
+<body class="gradient-bg" data-theme="light">
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div>
+        <h1 class="title">🪵 LUMBAR Design System</h1>
+        <p class="subtitle">Glassmorphism + Modern Minimalist</p>
+      </div>
+      <button class="theme-toggle" onclick="toggleTheme()">
+        🌙 Toggle Dark Mode
+      </button>
+    </header>
+
+    <!-- Glass Cards -->
+    <section class="section">
+      <h2 class="section-title">🪟 Glass Cards</h2>
+      <div class="grid grid-3">
+        <div class="glass-light">
+          <span class="card-label">Light (25% opacity)</span>
+          <h3 class="card-title">Glass Light</h3>
+          <p class="card-text">backdrop-blur: 10px<br>For cards and panels</p>
+        </div>
+        <div class="glass-medium">
+          <span class="card-label">Medium (40% opacity)</span>
+          <h3 class="card-title">Glass Medium</h3>
+          <p class="card-text">backdrop-blur: 15px<br>For modals</p>
+        </div>
+        <div class="glass-heavy">
+          <span class="card-label">Heavy (60% opacity)</span>
+          <h3 class="card-title">Glass Heavy</h3>
+          <p class="card-text">backdrop-blur: 20px<br>For break overlay</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Buttons -->
+    <section class="section">
+      <h2 class="section-title">🔘 Buttons</h2>
+      <div class="glass-light">
+        <div class="btn-group" style="margin-bottom: 1rem;">
+          <button class="btn btn-primary">Primary Button</button>
+          <button class="btn btn-secondary">Secondary Button</button>
+          <button class="btn btn-ghost">Ghost Button</button>
+        </div>
+        <div class="btn-group" style="margin-bottom: 1rem;">
+          <button class="btn btn-primary btn-sm">Small</button>
+          <button class="btn btn-primary">Medium</button>
+          <button class="btn btn-primary btn-lg">Large</button>
+        </div>
+        <div class="btn-group">
+          <button class="btn btn-primary">🟢 Nghỉ ngơi đây!</button>
+          <button class="btn btn-passive-aggressive">😅 Kệ tôi thêm 5 phút...</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Colors -->
+    <section class="section">
+      <h2 class="section-title">🎨 Color Palette</h2>
+      <div class="glass-light">
+        <div class="color-grid">
+          <div class="color-swatch">
+            <div class="color-box" style="background: #FF6B35;"></div>
+            <span class="color-name">Primary<br>#FF6B35</span>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #4ECDC4;"></div>
+            <span class="color-name">Secondary<br>#4ECDC4</span>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #00B894;"></div>
+            <span class="color-name">Success<br>#00B894</span>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #FDCB6E;"></div>
+            <span class="color-name">Warning<br>#FDCB6E</span>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #E17055;"></div>
+            <span class="color-name">Error<br>#E17055</span>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #2D3436;"></div>
+            <span class="color-name">Text<br>#2D3436</span>
+          </div>
+          <div class="color-swatch">
+            <div class="color-box" style="background: #1A1A2E;"></div>
+            <span class="color-name">Dark BG<br>#1A1A2E</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Typography -->
+    <section class="section">
+      <h2 class="section-title">📝 Typography (Nunito)</h2>
+      <div class="glass-light typography-preview">
+        <h1>Heading 1 (36px Bold)</h1>
+        <h2>Heading 2 (24px Bold)</h2>
+        <h3>Heading 3 (20px Semibold)</h3>
+        <p>Body text - The quick brown fox jumps over the lazy dog. (16px Regular)</p>
+        <small>Caption text - Small notes and labels (12px Regular)</small>
+      </div>
+    </section>
+
+    <!-- Mascot & Timer -->
+    <section class="section">
+      <h2 class="section-title">🪵 Mascot & Timer</h2>
+      <div class="grid grid-2">
+        <div class="glass-medium">
+          <div class="mascot-container">
+            <div class="mascot">🪵</div>
+          </div>
+          <p class="card-text" style="text-align: center;">Lumbar mascot with gentle bounce animation</p>
+        </div>
+        <div class="glass-medium">
+          <div class="timer-display">15:42</div>
+          <p class="timer-label">Next break in 15 minutes</p>
+          <p class="card-text" style="text-align: center; margin-top: 1rem;">"Làm tốt lắm! Còn 15 phút nữa là nghỉ!"</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overlay Preview -->
+    <section class="section">
+      <h2 class="section-title">🖥️ Break Overlay Preview</h2>
+      <div class="overlay-preview">
+        <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800" 
+             alt="Office background" 
+             style="width: 100%; height: 300px; object-fit: cover;">
+        <div class="overlay-backdrop">
+          <div class="mascot" style="font-size: 4rem;">🪵</div>
+          <p class="overlay-message">Đứng dậy đi nào! 💪</p>
+          <div class="btn-group">
+            <button class="btn btn-primary">🟢 Nghỉ ngơi đây!</button>
+            <button class="btn btn-passive-aggressive">😅 Kệ tôi thêm 5 phút...</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>LUMBAR Design System v1.0 | Glassmorphism + Modern Minimalist</p>
+      <p>Built with Tailwind CSS v4 + Framer Motion</p>
+    </footer>
+  </div>
+
+  <script>
+    function toggleTheme() {
+      const body = document.body;
+      const currentTheme = body.getAttribute('data-theme');
+      
+      if (currentTheme === 'dark') {
+        body.setAttribute('data-theme', 'light');
+        body.classList.remove('dark-gradient-bg');
+        body.classList.add('gradient-bg');
+      } else {
+        body.setAttribute('data-theme', 'dark');
+        body.classList.remove('gradient-bg');
+        body.classList.add('dark-gradient-bg');
+      }
+    }
+  </script>
+</body>
+</html>
